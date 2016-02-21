@@ -5,7 +5,6 @@
 	Twenty by HTML5 UP
 	html5up.net | @n33co
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-	Trial edit by Adam Ogrodnik
 */
 
 /* Basic */
@@ -549,7 +548,7 @@
 		input[type="submit"].fit,
 		input[type="reset"].fit,
 		.button.fit {
-			width: 100%;
+	width: 70%;
 		}
 
 		input[type="button"].small,
@@ -626,6 +625,7 @@
 		top: 0;
 		width: 100%;
 		z-index: 10000;
+		
 	}
 
 		#header h1 {
@@ -805,7 +805,7 @@
 	#banner {
 		background-attachment: scroll, scroll, scroll, fixed;
 		background-color: #645862;
-		background-image: url("images/light-bl.svg"), url("images/light-br.svg"), url("images/overlay.png"), url("../images/banner.jpg");
+		background-image: url("images/light-bl.svg"), url("images/light-br.svg"), url("images/overlay.png"), url("../images/banner_twitter.jpg");
 		background-position: bottom left, bottom right, top left, top center;
 		background-repeat: no-repeat, no-repeat, repeat, no-repeat;
 		background-size: 25em, 25em, auto, cover;
@@ -836,8 +836,6 @@
 
 			#banner .inner header {
 				display: inline-block;
-				/*border-bottom: solid 2px;
-				border-top: solid 2px;*/
 				margin: 0 0 2em 0;
 				padding: 3px 0 3px 0;
 			}
@@ -851,13 +849,11 @@
 					margin: 0;
 					padding-left: 0.05em;
 					position: relative;
-					/*text-transform: uppercase;*/
 				}
 
 			#banner .inner p {
-				letter-spacing: 0.1em;
-				margin: 0;
-				text-transform: uppercase;
+	letter-spacing: 0.1em;
+	margin: 0;
 			}
 
 				#banner .inner p a {
